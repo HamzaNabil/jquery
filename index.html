@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>jQuery</title>
+
+    <style>
+      .demo {
+        width: 100px;
+        height: 100px;
+        background: red;
+        display: none;
+      }
+
+      body {
+        height: 2000px;
+      }
+
+      .data {
+        height: 200px;
+        background: green;
+        width: 100%;
+      }
+
+      .fixed {
+        position: fixed;
+        top: 0;
+      }
+
+      ul {
+        list-style: none;
+      }
+      li {
+        display: inline-block;
+        padding: 10px;
+        border: 1px solid #999;
+        cursor: pointer;
+      }
+
+      .active {
+        background: #f50;
+      }
+
+      .scrollTop {
+        width: 20px;
+        height: 20px;
+        background: red;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        cursor: pointer;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- write less do more -->
+    <button class="btn">Action</button>
+    <div class="demo"></div>
+
+    <button id="add">Add Item</button>
+    <ul class="items"></ul>
+
+    <div class="applyStyle">Apply Style</div>
+
+    <ul>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+
+    <!-- Get Set  -->
+    <div class="product">This is Product Div</div>
+
+    <!-- Scroll To Top -->
+    <div class="scrollTop"></div>
+
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <div class="data"></div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
